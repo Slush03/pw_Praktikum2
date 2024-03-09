@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum2</title>
+    <style type="text/css">
+        label{
+            width: 150px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1> Challenge_22.11.4719 </h1>
+
+    <table border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th colspan="4" bgcolor="orange" > Daftar Buku </th>
+            </tr> 
+            <tr>
+                <th rowspan="4"> <img src="buku.jpg" width="100"></th>
+            </tr>
+            <tr>
+                <td>Judul</td>
+                <td>:</td>
+                <td>Web Programing</td>
+            </tr>
+            <tr>
+              <td>harga</td>
+              <td>:</td>
+              <td>Rp. 245.000,00</td>  
+            </tr>
+            <tr>
+                <td>pengarang</td>
+                <td>:</td>
+                <td>John Dean</td>
+            </tr>
+        </thead>
+    </table>
+    <h3>Isilah formulir dibawah ini</h3>
+    <form>
+        <div>
+            <label for="Nama">Nama : </label>
+            <input type="text" id="Nama" name="Nama" >
+        </div>
+        <div>
+            <label for="Password">Password :</label>
+            <input type="password" name="Password" id="Password">
+        </div>
+        <div>
+            <label for="Jenis Kelamin">Jenis Kelamin :</label>
+            <input type="radio" name="Jenis Kelamin" value="Laki-Laki">Laki-Laki
+            <input type="radio" name="Jenis Kelamin" value="Perempuan">Perempuan
+        </div>
+        <div>
+            <label for="Hobi">Hobi :</label>
+            <input type="checkbox" name="Hobi" value="Membaca Buku">Membaca Buku
+            <input type="checkbox" name="Hobi" value="Menulis">Menulis
+            <input type="checkbox" name="Hobi" value="Memancing">Memancing
+        </div>
+        <div>
+            <label for="Asal Kota">Asal Kota :</label>
+            <select name="Asal Kota" id="Asal Kota">
+                <option value="Semarang">Semarang</option>
+                <option value="Yogyakarta">Batam</option>
+                <option value="Jakarta">Bandung</option>
+            </select>
+        </div>
+        <div>
+            <label for="Komentar Anda">Komentar Anda :</label>
+            <textarea name="Komentar Anda" id="Komentar Anda" cols="30" rows="5"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="button" name="Mulai Proses!" value="Mulai Proses!">
+        </div>
+    </form>
+</body>
+</html>
